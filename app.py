@@ -9,6 +9,7 @@ def main():
     while True:
         OPT = int(input("-> "))
         if OPT == 1:
+            autoHX()
             break
         if OPT == 2:
             myfun()

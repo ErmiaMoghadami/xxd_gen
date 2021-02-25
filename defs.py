@@ -18,3 +18,10 @@ def myfun():
     HEX = input("HEX: ")
     Unix("xxd -r -p -o 0 <(echo " + HEX + ") " + PATH)
     print("Your File Is Ready(To Use) in the " + PATH)
+
+def autoHX():
+    FS = input("Size(MB): ")
+    Fn = input("Name: ")
+    PATH = "output/" + Fn
+    Unix("truncate -s " + FS + "M " + PATH)
+    print("File Extention\n")
