@@ -3,6 +3,8 @@
 import os
 from defs import *
 
+from DIC import *
+
 def main():
     Unix("clear")
     print("Choose An Option\n\t1.Creat By Extention\n\t2.Creat By Hex")
