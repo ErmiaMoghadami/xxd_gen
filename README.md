@@ -4,4 +4,6 @@
 
 
 # TODO
-#### [ ] Add Setup sh to GIT and Video
+#### [x] Add Setup sh to GIT and Video
+#### [ ] Add /dev/unrandom To App And Video
+#### [ ] <Your Opinion>
