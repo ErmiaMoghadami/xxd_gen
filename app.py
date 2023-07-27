@@ -19,4 +19,5 @@ def main():
         if OPT != [1, 2]:
             print("No Option Called " + str(OPT))
 
-main()
+if __name__ == "__main__":
+    main()

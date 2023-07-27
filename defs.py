@@ -2,10 +2,13 @@
 
 import os
 from DIC import *
+
 # NOTE: Simple base
+
 def Unix(CMD):
     print('> ' + CMD)
     os.system(CMD)
+    
 def File_Gen(SZ, NM, etn):
     Unix("truncate -s " + SZ + "M " + NM)
     print("File Created")
