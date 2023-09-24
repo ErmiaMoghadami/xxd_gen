@@ -1,4 +1,4 @@
-# Functions Will Creat in this File
+# Functions Will Be Created in this File
 
 import os
 from DIC import *
