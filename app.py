@@ -7,7 +7,7 @@ from DIC import *
 
 def main():
     Unix("clear")
-    print("Choose An Option\n\t1.Creat By Extention\n\t2.Creat By Hex")
+    print("Choose An Option\n\t1.Create By Extention\n\t2.Create By Hex")
     while True:
         OPT = int(input("-> "))
         if OPT == 1:
